@@ -1,0 +1,14 @@
+{
+  "name": "micro-boilerplate",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "micro",
+    "dev": "micro-dev"
+  },
+  "dependencies": {
+    "micro": "^8.0.4",
+    "micro-dev": "^1.2.2"
+  }
+}
