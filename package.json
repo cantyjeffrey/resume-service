@@ -1,5 +1,5 @@
 {
-  "name": "micro-boilerplate",
+  "name": "puppeteer-micro",
   "version": "0.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -7,8 +7,19 @@
     "start": "micro",
     "dev": "micro-dev"
   },
+  "now": {
+    "name": "puppeteer-micro",
+    "type": "docker",
+    "alias": "puppeteer-micro.now.sh",
+    "files": ["Dockerfile", "index.js", "package.json", "yarn.lock"]
+  },
   "dependencies": {
-    "micro": "^8.0.4",
-    "micro-dev": "^1.2.2"
+    "micro": "latest",
+    "micro-cors": "^0.0.4",
+    "node-fetch": "latest",
+    "puppeteer": "latest"
+  },
+  "devDependencies": {
+    "micro-dev": "latest"
   }
 }
