@@ -10,12 +10,13 @@
   "now": {
     "name": "puppeteer-micro",
     "type": "docker",
-    "alias": "puppeteer-micro.now.sh",
-    "files": ["Dockerfile", "index.js", "package.json", "yarn.lock"]
+    "alias": "puppeteer.jff.re",
+    "files": ["Dockerfile", "index.js", "handlers.js", "package.json", "yarn.lock"]
   },
   "dependencies": {
     "micro": "latest",
     "micro-cors": "^0.0.4",
+    "microrouter": "^2.2.2",
     "node-fetch": "latest",
     "puppeteer": "latest"
   },

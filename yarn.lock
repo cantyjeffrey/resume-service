@@ -965,7 +965,7 @@ micro@8.0.2:
     mri "1.1.0"
     raw-body "2.3.0"
 
-micro@latest:
+micro@^8.0.1, micro@latest:
   version "8.0.4"
   resolved "https://registry.yarnpkg.com/micro/-/micro-8.0.4.tgz#ab73ef1ec5892a6432edfafe32200c8d41498ef7"
   dependencies:
@@ -991,6 +991,13 @@ micromatch@^2.1.5:
     object.omit "^2.0.0"
     parse-glob "^3.0.4"
     regex-cache "^0.4.2"
+
+microrouter@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/microrouter/-/microrouter-2.2.2.tgz#8cabd998bcefa7adeb48ec417adb3b7da8df2c6c"
+  dependencies:
+    micro "^8.0.1"
+    url-pattern "^1.0.3"
 
 mime-db@~1.29.0:
   version "1.29.0"
@@ -1649,6 +1656,10 @@ ultron@~1.1.0:
 unpipe@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/unpipe/-/unpipe-1.0.0.tgz#b2bf4ee8514aae6165b4817829d21b2ef49904ec"
+
+url-pattern@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/url-pattern/-/url-pattern-1.0.3.tgz#0409292471b24f23c50d65a47931793d2b5acfc1"
 
 util-deprecate@~1.0.1:
   version "1.0.2"
