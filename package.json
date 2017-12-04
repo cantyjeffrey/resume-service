@@ -1,5 +1,5 @@
 {
-  "name": "puppeteer-micro",
+  "name": "resume-service",
   "version": "0.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -8,10 +8,16 @@
     "dev": "micro-dev"
   },
   "now": {
-    "name": "puppeteer-micro",
+    "name": "resume-service",
     "type": "docker",
-    "alias": "puppeteer.jff.re",
-    "files": ["Dockerfile", "index.js", "handlers.js", "package.json", "yarn.lock"]
+    "alias": "resume-service.jff.re",
+    "files": [
+      "Dockerfile",
+      "index.js",
+      "handlers.js",
+      "package.json",
+      "yarn.lock"
+    ]
   },
   "dependencies": {
     "micro": "latest",
